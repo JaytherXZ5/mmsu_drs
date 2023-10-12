@@ -37,7 +37,7 @@
             </div>
             
             <div class=" px-2 w-[100%] bg-slate cursor-pointer">
-                <p class=" my-2 w-[80%] h-[20px]">Jayther.docx</p>
+                <p class=" my-2 w-[80%] h-[20px]">Jaythers.docx</p>
                 <p class=" mt-2 w-[80%] h-[20px] text-[10px]">July 10, 2023</p>
             </div>
             <div class="t-0 mt-2 mr-2 w-[20px] h-[20px] flex flex-col">
