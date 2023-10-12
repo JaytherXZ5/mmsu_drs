@@ -11,5 +11,9 @@ class HomeController extends Controller
     public function getDataHome(){
         $folders = DB::table('folders')->get();
         $files = DB::table('files')->orderBy('id', 'desc')->get();
+        return [
+            'folders' => $folders,
+            'files' => $files
+        ];
     }
 }

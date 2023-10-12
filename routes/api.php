@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\FolderController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -18,5 +19,5 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
-
+Route::post('/folder/create', [FolderController::class, 'create_folder']);
 Route::get('/home/get-data', [HomeController::class, 'getDataHome']);
