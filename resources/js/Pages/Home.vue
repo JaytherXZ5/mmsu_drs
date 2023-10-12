@@ -1,31 +1,13 @@
 <template>
     <div class="grid grid-cols-4 gap-1 p-2 border">
-       <div class="f-order-icon pt-1">
-            <li class="list-none">
-                <font-awesome-icon :icon="faFolder" size="2xl" />
-                <p class="text-sm font-sans">name</p>
-            </li>
-       </div>
-       <div class="f-order-icon pt-1">
-            <li class="list-none">
-                <font-awesome-icon :icon="faFolder" size="2xl" />
-                <p class="text-sm font-sans">name</p>
-            </li>
-       </div>
-       <div class="f-order-icon pt-1">
-            <li class="list-none">
-                <font-awesome-icon :icon="faFolder" size="2xl" />
-                <p class="text-sm font-sans">name</p>
-            </li>
-       </div>
-       <div class="f-order-icon pt-1">
-            <li class="list-none">
-                <font-awesome-icon :icon="faFolder" size="2xl" />
-                <p class="text-sm font-sans">name</p>
-            </li>
+       <div class="f-order-icon pt-1 grid grid-col">
+            <div class="grid w-11">
+                <div class="janung">
+                    <font-awesome-icon :icon="faFolder" class="flex w-[100%] h-[100%] text-blue-400"/>
+                </div>
+            </div>
        </div>
     </div>
-
 
 
     <!--/////////////////////////////RECENT UPLOADS/////////////////////////////-->
@@ -33,7 +15,7 @@
         <p class="px-2 mb-2"> Recent Uploads</p>
         <div class="flex mt-0 border cursor-pointer">
             <div class="pt-0 w-[52px] h-[67px] flex justify-center items-center">
-                  <font-awesome-icon :icon="faFile" class="relative  w-[80%] h-[100%]"/>
+                  <font-awesome-icon :icon="faFile" class="relative  w-[80%] h-[100%] text-blue-900"/>
             </div>
             
             <div class=" px-2 w-[100%] bg-slate cursor-pointer">
@@ -45,7 +27,7 @@
                     <font-awesome-icon :icon="faDownload" class="flex w-[100%] h-[100%] text-blue-400"/>
                 </div>
                 <div class=" mt-2 flex">
-                    <font-awesome-icon :icon="faArchive" class="flex w-[100%] h-[100%]" />
+                    <font-awesome-icon :icon="faArchive" class="flex w-[100%] h-[100%] text-red-500" />
                 </div>
                 
                 
