@@ -1,7 +1,7 @@
 <template>
     <div class="grid grid-cols-4 gap-1 p-2 border">
        <div class="f-order-icon pt-1 grid grid-col">
-            <div class="grid w-11">
+            <div class="grid w-11 h-11">
                 <div class="janung">
                     <font-awesome-icon :icon="faFolder" class="flex w-[100%] h-[100%] text-blue-400"/>
                 </div>
